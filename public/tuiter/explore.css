@@ -1,0 +1,58 @@
+.btn-primary.override-bs {
+    background-color: dodgerblue;
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.form-control.override-radius {
+    border-radius: 30px;
+}
+.input-group-text.override-radius {
+    border-radius: 30px;
+}
+.fa-cog.move-right {
+    position: relative;
+}
+
+.card-title-text {
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    font-size:24px;
+    color: white;
+    font-weight: bold;
+}
+
+.avatar-image {
+    width: 25px;
+    border-radius: 20px;
+}
+
+.avatar-image-sm {
+    border-radius:20px;
+    width: 35px;
+}
+.btn-primary.rounded-border {
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+.avatar-image-nasa {
+    border-radius:20px;
+    width: 60px;
+}
+
+.wd {
+    color: slategray;
+    font-size: 12px;
+}
+
+.card-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+}
+

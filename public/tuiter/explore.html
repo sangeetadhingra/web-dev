@@ -1,56 +1,189 @@
 <head>
-    <link href="index.css" rel="stylesheet"/>
+    <link href="explore.css" rel="stylesheet"/>
+    <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </head>
-<body class = "wd-blackbg"></body>
+<div class="container mt-3">
+    <div class="row">
+    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <i class="fab fa-twitter fa-1x"></i><br/>
+            </li>
+            <li class="list-group-item">
+                <i class="fa fa-solid fa-home"></i>
+                <span class="d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block d-sm-none ">Home </span></li>
+            <li class="list-group-item active">
+                <i class="fa fa-solid fa-hashtag"></i>
+                <span class="d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block d-sm-none ">Explore </span></li>
+            <li class="list-group-item">
+                <i class="fa fa-solid fa-bell"></i>
+                <span class="d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block d-sm-none ">Notifications </span></li>
+            <li class="list-group-item">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span class="d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block d-sm-none ">Messages</span></li>
+            <li class="list-group-item">
+                <i class="fa fa-solid fa-bookmark"></i>
+                <span class="d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block d-sm-none ">Bookmarks </span></li>
+            <li class="list-group-item "><i class="fa fa-solid fa-list"></i>
+                <span class="d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block d-sm-none ">Lists </span></li>
+            <li class="list-group-item"><i class="fa fa-solid fa-user"></i>
+                <span class="d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block d-sm-none ">Profile </span></li>
+            <li class="list-group-item"><i class="fa fa-ellipsis-h"></i>
+                <span class="d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block d-sm-none ">More </span></li>
+        </ul>
+        <button class="btn btn-primary override-bs" >Tweet</button>
+    </div>
+    <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-10 col-sm-10">
+        <div class="row">
+        <div class="col-11">
+        <div class="input-group mb-3">
+            <span class="input-group-text override-radius"><i class="fa fa-search"></i></span>
+            <input type="text" class="form-control override-radius" placeholder="Search Twitter">
+        </div>
+        </div>
+        <div class="col-1"><i class="fa fa-cog move-right fa-2x" style="color: dodgerblue"></i></div>
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"> <a class="nav-link active" href="#"> For you </a> </li>
+            <li class="nav-item">  <a class="nav-link" href="#"> Trending </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> News </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> Sports </a></li>
+            <li class="nav-item"><a class="nav-link d-md-block d-lg-block d-xl-block d-xxl-block d-sm-none" href="#"> Entertainment </a></li>
+        </ul>
+        <div class="card mt-2">
+            <img src="https://cdn.mos.cms.futurecdn.net/wYLunppaoyVLSYzhEhvc8c-1024-80.jpg.webp" class="card-img-top">
+                <div class="card-title-text">Space X's Starship</div>
+            <ul class="list-group mt-0">
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-8">
+                            <span style="color:slategrey">Web Development </span></br>
+                            <b>ReactJS</b><i class="fa fa-check-circle"></i> - 2h </br>
+                            <p><b>React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</b></p>
+                        </div>
+                        <div class="col-4" style="text-align:center;">
+                            </br>
+                            <img src="https://reactjs.org/logo-og.png" class="card-pic">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-8">
+                            <span style="color:slategrey">Web Development </span></br>
+                            <b>JavaScript</b><i class="fa fa-check-circle"></i> - 2h </br>
+                            <p class="mb-0"><b>JavaScript is a programming language that can run on browsers as well as desktops</b></p>
+                            <div style="color:slategrey">123K Tweets </div></br>
+                        </div>
+                        <div class="col-4" style="text-align:center;">
+                            </br>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" class="card-pic">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-8">
+                            <span style="color:slategrey">Web Development </span></br>
+                            <b>JQuery</b>
+                            <div style="color:slategrey">123K Tweets </div></br>
+                        </div>
+                        <div class="col-4" style="text-align:center;">
 
-<div>
-<input class = "wd-searchTuitter" type="string"
-       placeholder="Search Tuitter"
-       id="search-twitter"
-       size = 70/><br/>
-    <a href="explore-settings.html" class = "wd-gearToExploreSettings"> &#9881; </a>
+                            <img src="https://logodix.com/logo/941103.png" class="card-pic">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-8">
+                            <span style="color:slategrey">Web Development </span></br>
+                            <b>NodeJS</b><i class="fa fa-check-circle"></i> - 2h
+                            <div style="color:slategrey">123K Tweets </div></br>
+                        </div>
+                        <div class="col-4" style="text-align:center;">
+
+                            <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" class="card-pic">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+</div>
+        <div class="d-md-none d-sm-none d-lg-block d-xl-block d-xxl-block col-xxl-4 col-xl-3 col-lg-2">
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Who to follow</strong></li>
+                <li class="list-group-item">
+                    <div class="row"> <div class="col-1">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+                        class="avatar-image">
+                    </div>
+                        <div class="col-7"> <b>Java</b><i class="fa fa-check-circle"></i> </br>
+                            @Java
+                    </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary rounded-border" >Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row"> <div class="col-1">
+                        <img src="https://images.hired.com/companies/31902/logos/1492131354/offer.png"
+                             class="avatar-image-sm">
+                    </div>
+                        <div class="col-7"> <b>Relativity Space</b><i class="fa fa-check-circle"></i> </br>
+                            @relativityspace
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary rounded-border" >Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row"> <div class="col-1">
+                        <img src="https://cdn.worldvectorlogo.com/logos/virgin-1.svg"
+                             class="avatar-image-sm">
+                    </div>
+                        <div class="col-7"> <b>Virgin Galactic</b><i class="fa fa-check-circle"></i> </br>
+                            @virgingalactic
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary rounded-border" >Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row"> <div class="col-1">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
+                             class="avatar-image-sm">
+                    </div>
+                        <div class="col-7"> <b>Nasa</b><i class="fa fa-check-circle"></i> </br>
+                            @Nasa
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary rounded-border" >Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row"> <div class="col-1">
+                        <img src="https://cdn.mos.cms.futurecdn.net/xz4NVQhHaHShErxar7YLn.jpg"
+                             class="avatar-image-sm">
+                    </div>
+                        <div class="col-7"> <b>Tesla</b><i class="fa fa-check-circle"></i> </br>
+                            @Tesla
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary rounded-border" >Follow</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
 
-<div>
-    <div class = "wd-firstLink" >For you</div>
-    <div class = "wd-otherExploreLinks"> Trending</div>
-    <div class = "wd-otherExploreLinks"> COVID-19</div>
-    <div class = "wd-otherExploreLinks"> News </div>
-    <div class = "wd-otherExploreLinks"> Sports</div>
-    <div class = "wd-otherExploreLinks"> Entertainment</div>
-    <div class = "wd-float-done"> </div>
-</div>
-
-<div class = "wd-suggestedPostsBorder">
-    <div class = "wd-suggestedPostsTweets"> Sports - Trending</div>
-    <div class = "wd-titleText"> SuperBowl </div>
-    <div class = "wd-suggestedPostsTweets"> 1.3M Tweets</div>
-</div>
-<div class = "wd-suggestedPostsBorder">
-    <div class = "wd-suggestedPostsArticles"> FOX News</div>
-    <div class = "wd-titleText"> Covid-Vaccines </div>
-    <img class= "wd-suggestedPostsImg" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/14A35/production/_115033548_gettyimages-1226314512.jpg" >
-    <div class = "wd-float-done"> </div>
-</div>
-<div class = "wd-suggestedPostsBorder">
-    <div class = "wd-suggestedPostsTweets"> Weather</div>
-    <div class = "wd-titleText"> Snow Updates in MA </div>
-    <img class="wd-suggestedPostsImg" src="https://static.scientificamerican.com/sciam/cache/file/391E7BCB-431B-41EB-B8A85786A27DFAC6_source.jpg?w=590&h=800&9CE4AB36-DEB9-4496-9979EE119164A63A">
-    <div class = "wd-float-done"></div>
-</div>
-<div class = "wd-suggestedPostsBorder">
-    <div class = "wd-suggestedPostsTweets"> Politics - Trending</div>
-    <div class = "wd-titleText"> Ukraine-Russia </div>
-    <div class = "wd-suggestedPostsTweets"> 503K Tweets</div>
-</div>
-<div class = "wd-suggestedPostsBorder">
-    <div class = "wd-suggestedPostsTweets"> Animals</div>
-    <div class = "wd-titleText"> Trending dog pics </div>
-    <img class= "wd-suggestedPostsImg" src="https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg?_=42445" >
-    <div class = "wd-float-done"> </div>
-</div>
-<div class = "wd-suggestedPostsBorder">
-    <div class = "wd-suggestedPostsArticles"> CNN</div>
-    <div class = "wd-titleText"> Winter Olympics - Beijing </div>
-</div>
 
