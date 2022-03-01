@@ -21,7 +21,7 @@ const ExploreComponent = () => {
         <div class="card mt-2">
             <img src="https://cdn.mos.cms.futurecdn.net/wYLunppaoyVLSYzhEhvc8c-1024-80.jpg.webp" class="card-img-top">
                 <div class="card-title-text">Space X's Starship</div>
-           ${PostSummaryList()}
+           ${PostSummaryList()} </div>
     `);
 }
 export default ExploreComponent;
