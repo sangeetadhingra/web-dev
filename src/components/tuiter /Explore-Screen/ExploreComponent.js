@@ -13,13 +13,14 @@ const ExploreComponent = () => {
         <div className="col-1"><i className="fa fa-cog fa-2x" style={{"color": "dodgerblue"}}></i></div>
            </div>
            <ul className="nav mb-2 nav-tabs">
-            <li className="nav-item"> <a className="nav-link active" href="#"> For you </a> </li>
-            <li className="nav-item">  <a className="nav-link" href="#"> Trending </a></li>
-            <li className="nav-item"><a className="nav-link" href="#"> News </a></li>
-            <li className="nav-item"><a className="nav-link" href="#"> Sports </a></li>
-            <li className="nav-item"><a className="nav-link d-md-block d-lg-block d-xl-block d-xxl-block d-sm-none" href="#"> Entertainment </a></li>
+            <li className="nav-item"> <a className="nav-link active" href="#top"> For you </a> </li>
+            <li className="nav-item">  <a className="nav-link" href="#top"> Trending </a></li>
+            <li className="nav-item"><a className="nav-link" href="#top"> News </a></li>
+            <li className="nav-item"><a className="nav-link" href="#top"> Sports </a></li>
+            <li className="nav-item"><a className="nav-link d-md-block d-lg-block d-xl-block d-xxl-block d-sm-none" href="#top"> Entertainment </a></li>
            </ul>
         <div className="card mt-2">
+            {/* eslint-disable-next-line */}
             <img src="https://cdn.mos.cms.futurecdn.net/wYLunppaoyVLSYzhEhvc8c-1024-80.jpg.webp" className="card-img-top"/>
                 <div className="card-title-text">Space X's Starship</div>
            <PostSummaryList/></div>

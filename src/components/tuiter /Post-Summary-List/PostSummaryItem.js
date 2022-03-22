@@ -19,7 +19,7 @@ const PostSummaryItem = ( {
                         </div>
                         <div className="col-1"></div>
                         <div className="col-2" style={{"textAlign":"center"}}>
-
+                            {/* eslint-disable-next-line */}
                             <img src={post.image} className="card-pic rounded img-fluid"/>
                         </div>
                     </div>

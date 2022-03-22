@@ -11,6 +11,7 @@ const WhoToFollowListItem = ( {
         <>
         <li className="list-group-item">
         <div className="row"> <div className="col-2">
+            {/* eslint-disable-next-line */}
             <img src={who.avatarIcon} width="48"
                  className="img-fluid rounded-circle"/>
         </div>
