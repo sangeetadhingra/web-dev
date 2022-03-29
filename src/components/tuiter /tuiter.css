@@ -1,0 +1,286 @@
+.wd-blackbg {
+    background-color: black;
+}
+
+.wd-searchTuitter {
+    background-color: darkgray;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    left: 16px;
+}
+
+.wd-gearToExploreSettings {
+    float: right;
+    font-size: 50px;
+    color: dodgerblue;
+    position: relative;
+    right: 12px;
+    bottom: 50px
+
+}
+.wd-firstLink {
+    color: rgb(29, 161, 242);
+    float: left;
+    font-size: 15px;
+    padding: 16px 0px;
+    margin: 0px 16px;
+    border-bottom: 5px solid rgb(29,161, 242);
+    position: relative;
+    left: 16px;
+}
+
+.wd-otherExploreLinks {
+    color: rgb(110, 118, 125);
+    float: left;
+    font-size: 15px;
+    padding: 16px;
+    position: relative;
+    left: 16px
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-suggestedPostsBorder {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+
+.wd-suggestedPostsTweets {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding-top: 10px;
+
+}
+
+.wd-suggestedPostsArticles {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.wd-suggestedPostsImg {
+    position: relative;
+    right: 16px;
+    bottom: 25px;
+    float: right;
+    border-radius: 30px;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+}
+
+.wd-titleText {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.wd-bookmarksTitle {
+    color: white;
+    position: relative;
+    left: 16px;
+    top: 12px;
+    font-size: 20px;
+}
+
+.wd-handle {
+    color: lightgray;
+    position: relative;
+    left: 16px;
+    bottom: 12px;
+}
+
+.wd-circularAvatar {
+    width: 48px;
+    border-radius: 40px;
+    position: relative;
+    float: left;
+    left: 16px;
+}
+
+.wd-author {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    float:left;
+    left: 20px;
+}
+
+.wd-handleAndDate {
+    color: lightgray;
+    font-size: 15px;
+    position: relative;
+    float:left;
+    left: 25px;
+}
+
+.wd-bookmarkMainContent {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    position: relative;
+    right: 16px;
+    bottom: 20px;
+    left: 70px;
+}
+
+.wd-bookmarkMainImg {
+    border-radius: 40px;
+    position: relative;
+    bottom: 12px;
+    left: 60px;
+}
+
+.wd-roundedBottomBorder {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid gray;
+    position: relative;
+    bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.wd-imgTitle {
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    position: relative;
+    left: 40px;
+    font-weight: bold;
+}
+
+.wd-imgText {
+    color: lightgray;
+    font-size: 15px;
+    padding: 12px;
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+    margin-bottom: 0px;
+}
+
+
+.wd-retweetIcon {
+    color:lightslategray;
+    float: left;
+    position: relative;
+    left: 240px;
+}
+.wd-heartIcon {
+    color:red;
+    float: left;
+    position: relative;
+    left: 300px;
+}
+
+.wd-redBookmarkNum {
+    color: red;
+    float: left;
+    position: absolute;
+    left: 16px;
+    bottom: 0px;
+}
+
+.wd-uploadIcon {
+    color:lightslategray;
+    float: left;
+    position: relative;
+    left: 360px;
+}
+
+
+.wd-bookmarkNums {
+    color: lightslategray;
+    float: left;
+    position: absolute;
+    left: 16px;
+    bottom: 0px;
+
+}
+
+.wd-messageIcon {
+    color:lightslategray;
+    float: left;
+    position: relative;
+    left: 180px;
+}
+
+.wd-border2 {
+    border: 1px solid rgb(47, 51, 54);
+    margin-top: 50px;
+}
+
+.btn-primary.override-bs {
+    background-color: dodgerblue;
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.form-control.override-radius {
+    border-radius: 30px;
+}
+.input-group-text.override-radius {
+    border-radius: 30px;
+}
+.fa-cog.move-right {
+    position: relative;
+}
+
+.card-title-text {
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    font-size:24px;
+    color: white;
+    font-weight: bold;
+}
+
+.avatar-image {
+    width: 25px;
+    border-radius: 20px;
+}
+
+.avatar-image-sm {
+    border-radius:20px;
+    width: 35px;
+}
+.btn-primary.rounded-border {
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+.avatar-image-nasa {
+    border-radius:20px;
+    width: 60px;
+}
+
+.wd {
+    color: slategray;
+    font-size: 12px;
+}
+
+.card-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+.wd-border-radius-20px {
+    border-radius: 20px;
+}
+.wd-avatar-image {
+    width: 48px;
+}

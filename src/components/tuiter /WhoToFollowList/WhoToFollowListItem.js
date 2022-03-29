@@ -16,7 +16,7 @@ const WhoToFollowListItem = ( {
                  className="img-fluid rounded-circle"/>
         </div>
             <div className="col-6"> <b>{who.userName}</b><i className="fa icon-white fa-circle"></i><br></br>
-            {'@' + who.handle}
+                <div>@{who.handle}</div>
         </div>
         <div className="col-4">
             <button className="btn btn-primary rounded-border" >Follow</button>
