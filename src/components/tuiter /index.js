@@ -1,4 +1,4 @@
-import {Outlet} from "react-router-dom";
+
 import NavigationSidebar from "./NavigationSidebar";
 import "./tuiter.css";
 import whoReducer from "./reducers/who-reducer";
