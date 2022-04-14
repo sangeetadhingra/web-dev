@@ -13,13 +13,14 @@ const TuitListItem = ({tuit}) => {
     return(<>
         <li className="list-group-item">
             <table>
+                <tbody>
+                <i onClick={() => deleteTuit(tuit)}  className="fas fa-remove fa-2x
+                  fa-pull-right" style={{"color":"white"}}></i>
                 <tr>
                     <td className="align-text-top">
                         {/* eslint-disable-next-line */}
                         <img className="rounded-circle wd-avatar-image"
                              src={tuit['logo-image']}/>
-                        <i onClick={() => deleteTuit(tuit)}  className="fas fa-remove fa-2x
-                  fa-pull-right" style={{"color":"white"}}></i>
                     </td>
 
                     <td className="ps-3" style={{width: '100%'}}>
@@ -47,7 +48,7 @@ const TuitListItem = ({tuit}) => {
                         }
                         <TuitStats tuit={tuit}/>
                     </td>
-                </tr>
+                </tr></tbody>
             </table>
         </li>
     </>)

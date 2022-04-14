@@ -15,11 +15,16 @@ const WhoToFollowListItem = ( {
             <img src={who.avatarIcon} width="48"
                  className="img-fluid rounded-circle"/>
         </div>
-            <div className="col-6"> <b>{who.userName}</b><i className="fa icon-white fa-circle"></i><br></br>
-                <div>@{who.handle}</div>
-        </div>
-        <div className="col-4">
-            <button className="btn btn-primary rounded-border" >Follow</button>
+            <div className="col-8">
+            <div> <b style={{"fontSize": ".5em"}}>{who.userName}</b>
+                <span className="fa-stack" style={{"fontSize": "0.5em", "vertical-align": "top"}}>
+                          <i className="fas fa-circle fa-stack"></i>
+                          <i className="fas fa-check fa-stack-1x fa-inverse"></i>
+                </span> </div>
+                <div style={{"fontSize": ".5em"}}>@{who.handle}</div>
+            </div>
+        <div className="col-2">
+            <button className="btn btn-primary rounded-border mt-1 float-end rounded-pill" >Follow</button>
         </div>
         </div>
     </li>
