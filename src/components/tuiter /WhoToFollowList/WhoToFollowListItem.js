@@ -24,7 +24,7 @@ const WhoToFollowListItem = ( {
                 <div style={{"fontSize": ".5em"}}>@{who.handle}</div>
             </div>
         <div className="col-2">
-            <button className="btn btn-primary rounded-border mt-1 float-end rounded-pill" >Follow</button>
+            <button className="btn btn-primary rounded-border mt-1 float-end rounded-pill">Follow</button>
         </div>
         </div>
     </li>
