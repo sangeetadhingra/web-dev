@@ -21,6 +21,7 @@ export const findAllTuits = async (dispatch) => {
     });
 }
 export const updateTuit = async (dispatch, tuit) => {
+    // eslint-disable-next-line
     const status = await service.updateTuit(tuit);
     dispatch({
         type: UPDATE_TUIT,
@@ -29,6 +30,7 @@ export const updateTuit = async (dispatch, tuit) => {
 }
 
 export const deleteTuit = async (dispatch, tuit) => {
+    // eslint-disable-next-line
     const response = await service.deleteTuit(tuit);
     dispatch({
         type: DELETE_TUIT,
